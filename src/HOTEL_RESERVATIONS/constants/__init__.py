@@ -1,3 +1,6 @@
 from pathlib import Path
 
-CONFIG_FILE_PATH=Path("config/config.yaml")
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+
+CONFIG_FILE_PATH = Path("config/config.yaml")
+SCHEMA_FILE_PATH = Path("schema.yaml")
